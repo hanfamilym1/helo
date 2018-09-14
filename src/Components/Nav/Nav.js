@@ -2,9 +2,9 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 export default function Nav(props) {
-    console.log(props.href)
+    // console.log(props.href)
     let {href} = props
-    if (href === 'http://localhost:3001/#/'){
+    if (href === 'http://localhost:3000/#/'){
         return null
         
     } else {

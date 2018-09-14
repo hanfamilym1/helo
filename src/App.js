@@ -10,7 +10,7 @@ import routes from'./route'
 
 class App extends Component {
   render() {
-    console.log(window.location)
+    // console.log(window.location)
     let {href} = window.location
     return (
       <div className="App">
